@@ -1,13 +1,13 @@
 % Configuration
 
-\def\degree{Doctor of Philosophy (Engineering)}
+\def\degree{Doctor of Philosophy}
 \def\department{School of Computer Science \\ Faculty of Engineering}
 \def\mydegrees{Doctor of Philosophy (Engineering)}
 
 %\def\sid{200342291}
 
-\def\supervisor{A/Prof. Xiuying Wang}
-\def\assocsupervisora{Dr. Bowen Xin}
+\def\supervisor{Associate Professor Xiuying Wang}
+\def\assocsupervisora{Doctor Bowen Xin}
 %\def\assocsupervisorb{Optional third supervisor}
 
 \documentclass[logo]{style/usydthesis}
@@ -95,8 +95,6 @@
 \setstretch{1.5}
 
 % intro pages
-\input{src/abstract.tex}
-\input{src/thanks.tex}
 %\printglossary
 
 
@@ -117,11 +115,7 @@
 \renewcommand{\thepage}{\arabic{page}}	
 \setupParagraphs
 
-\input{src/introduction.tex}
 \input{src/litreview.tex}
-\input{src/methods.tex}
-\input{src/results.tex}
-\input{src/conclusion.tex}
 
 %%%%%%%%%%%%
 % End
@@ -133,5 +127,4 @@
 
 % Appendices
 \appendix
-\input{src/appendix.tex}
 \end{document}

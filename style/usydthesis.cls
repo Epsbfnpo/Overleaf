@@ -168,8 +168,8 @@
         }
       \vfil
       \par\bigskip
-      A thesis submitted in fulfilment of\\
-      the requirements for the degree of\\
+      A literature review submitted in partial fulfilment of \\
+      the requirements for the Confirmation of Candidature of\\
       \degree
     \vfil\vfil
       {\large\department\\
